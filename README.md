@@ -1,0 +1,2 @@
+Project Details:
+Image captioning with convolutional neural networks for image processing, and Long-Short Term Memory Neural Networks for caption generation. Utilized Kaggle 8K images and captions data set. Tokenized captions with Bert tokenizer, creating tokenized sequences. These sequences become training data for the LSTM. The LSTM processes token sequences with embedding and combines the image features that the CNN extracted and both are used to predict the next word. this combined model is trained for 20 epochs. Evaluation metrics included BLEU, ROUGE-L, METEOR scores.
